@@ -1,4 +1,5 @@
 header{
+    border: 2px solid;
     background-color: aqua;
     display: flex;
     justify-content: end;
@@ -6,4 +7,20 @@ header{
 
 header span{
     padding: 10px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border-color: black;
+    background-color: aqua;
 }
